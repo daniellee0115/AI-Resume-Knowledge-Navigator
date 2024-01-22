@@ -12,7 +12,11 @@ npm install
 
 ## How to run
 
-1. Run the command in the terminal:
+1. If this is your first time running after downloading this repo, comment the line "cursor.execute("DROP TABLE documents")" in backend/backend.py and in App.js, highlight lines 37-48 and do CTRL+/. After running this application at least once, uncomment the line "cursor.execute("DROP TABLE documents")" in backend/backend.py
+2. Run the command in the terminal:
+```bash
+python backend/backend.py
+```
 
 ```bash
 npx expo start --web
