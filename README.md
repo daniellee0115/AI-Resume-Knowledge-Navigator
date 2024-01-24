@@ -19,6 +19,7 @@ python backend/backend.py
 ```
 
 ```bash
+export NODE_OPTIONS=--openssl-legacy-provider
 npx expo start --web
 ```
 
